@@ -1,0 +1,113 @@
+/* Estilos propios de nosotros.html */
+.pagina-nosotros {
+  padding: 0 0 60px;
+}
+.cabecera-pagina {
+  background: linear-gradient(90deg, #f0f9f9 0%, #ebf8f2 100%);
+  padding: 40px 0 50px;
+  text-align: left;
+}
+.cabecera-pagina h1 {
+  font-size: 2.2rem;
+  color: var(--color-primario);
+  margin-bottom: 10px;
+}
+.cabecera-pagina h1 span {
+  color: var(--color-acento);
+}
+.cabecera-pagina p {
+  color: #6b7280;
+  max-width: 900px;
+  font-size: 0.95rem;
+}
+.contenido-nosotros {
+  padding: 50px 0 0;
+}
+.fila-mv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.tarjeta-mv {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.icono-tarjeta {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #ecfdf5;
+  color: var(--color-acento);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-bottom: 18px;
+}
+.tarjeta-mv :is(h2, h3) {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primario);
+  margin-bottom: 14px;
+}
+.tarjeta-mv p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  line-height: 1.7;
+  margin: 0;
+}
+.fuente {
+  font-size: 0.78rem;
+  color: #9ca3af;
+  margin-top: 12px;
+}
+.fuente a {
+  color: var(--color-acento);
+  text-decoration: underline;
+}
+.fila-datos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.tarjeta-datos {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.tarjeta-datos :is(h2, h3) {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primario);
+  margin-bottom: 18px;
+}
+.tarjeta-datos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tarjeta-datos li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+.tarjeta-datos li i {
+  color: var(--color-acento);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .fila-mv,
+  .fila-datos {
+    grid-template-columns: 1fr;
+  }
+}

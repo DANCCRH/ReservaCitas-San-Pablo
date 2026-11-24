@@ -1,0 +1,220 @@
+/* Estilos propios de registro.html */
+.registro-seccion {
+  padding: 40px 0 60px;
+}
+.registro-grid {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 60px;
+  align-items: start;
+}
+.volver-enlace {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-gris, #64748b);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+.volver-enlace:hover {
+  color: var(--color-primario, #0f766e);
+}
+.etiqueta-superior {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-acento, #0369a1);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.registro-grid h1 {
+  font-size: 1.8rem;
+  color: var(--color-primario-oscuro, #0a2463);
+  margin-bottom: 16px;
+}
+.registro-grid p {
+  color: var(--color-gris, #475569);
+  margin-bottom: 32px;
+  max-width: 360px;
+  line-height: 1.6;
+}
+.lista-beneficios {
+  margin-bottom: 40px;
+  list-style: none;
+  padding: 0;
+}
+.lista-beneficios li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #374151;
+}
+.lista-beneficios i {
+  color: var(--color-acento, #0d9488);
+  font-size: 1.1rem;
+}
+.ilustracion-registro {
+  position: relative;
+}
+.tarjeta-ilustracion-registro {
+  background: white;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(13, 148, 136, 0.08);
+  position: relative;
+  z-index: 2;
+  max-width: 280px;
+}
+.forma-fondo-registro {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(10, 36, 99, 0.06),
+    rgba(13, 148, 136, 0.04)
+  );
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.tarjeta-registro {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(10, 36, 99, 0.08);
+}
+.tarjeta-registro :is(h2, h3) {
+  color: #0a2463;
+  margin-bottom: 6px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.subtitulo-registro {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+.campo-grupo {
+  margin-bottom: 18px;
+}
+.campo-grupo label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #374151;
+}
+.input-con-boton {
+  position: relative;
+}
+.input-con-boton input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.input-con-boton input:focus {
+  outline: none;
+  border-color: #0a2463;
+  box-shadow: 0 0 0 3px rgba(10, 36, 99, 0.08);
+}
+.input-con-boton button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.boton-registro {
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0 20px;
+  background: #0a2463;
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.boton-registro:hover {
+  background: #081f4d;
+}
+.enlace-login {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.enlace-login a {
+  color: #0d9488;
+  font-weight: 600;
+  text-decoration: none;
+}
+.enlace-login a:hover {
+  text-decoration: underline;
+}
+.nota-final {
+  margin-top: 20px;
+  padding: 14px;
+  background: #f9fafb;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+.nota-final strong {
+  color: #0a2463;
+}
+.mensaje-feedback {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  display: none;
+}
+.mensaje-error {
+  background: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+.mensaje-exito {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+.checkbox-terminos {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 16px 0;
+}
+.checkbox-terminos input {
+  margin-top: 3px;
+}
+.checkbox-terminos label {
+  font-size: 0.85rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+@media (max-width: 800px) {
+  .registro-grid {
+    grid-template-columns: 1fr;
+  }
+  .ilustracion-registro {
+    display: none;
+  }
+}

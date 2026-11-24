@@ -1,0 +1,406 @@
+{
+  "proyecto": "ReservaCitas",
+  "alcance": "Imágenes y favicon distribuidos en el sitio. Las bibliotecas tipográficas e iconográficas se documentan en RECURSOS.md.",
+  "algoritmo": "SHA-256",
+  "recursos": [
+    {
+      "archivo": "public/favicon.ico",
+      "sha256": "c7dfa499fedb84f82eab3c71c5193c18dd8d9b0a352c12b6c6cdd004ec3f7295",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "Contenedor ICO de las versiones PNG originales a 16, 32, 48 y 64 px."
+    },
+    {
+      "archivo": "public/imagenes/fotografias/cardiologia.webp",
+      "sha256": "08ec4d86729be8653c82d10b95680fbf269865fcae2407e11041d0e8663fea6d",
+      "origen": "PNG maestro de la escena cardiologia, creada para ReservaCitas",
+      "sha256_origen": "67366d68da4977fc28d434d34885cebab1928cb3ef59fd2ec05eeb315a3cb528",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/contacto.webp",
+      "sha256": "a55f20e6e91964e61bee6705fdff416400daa3590781d6de94ef1e8683c06c09",
+      "origen": "PNG maestro de la escena contacto, creada para ReservaCitas",
+      "sha256_origen": "3852bc625efc89a53640107ce2234ce745a691a54dedd12817d60e865a158fbe",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/dermatologia.webp",
+      "sha256": "5c7357e443a90ebe2a8df5b6e91fe3ed61007ad9c75102c3be079105f101c78b",
+      "origen": "PNG maestro de la escena dermatologia, creada para ReservaCitas",
+      "sha256_origen": "d9a7d1317eef1d44f35713e7e8544535de6e2c59d33da727a7645da8f2d71eb1",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/diagnostico.webp",
+      "sha256": "2b2c41cbbcd69955fa7befa36c54f73a13ed317ec3432537b76d8100f2f55c1e",
+      "origen": "PNG maestro de la escena diagnostico, creada para ReservaCitas",
+      "sha256_origen": "738fe3863c753fcfcc29d65d088eb821286b914926e83d8e62041573b22f3284",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/equipo.webp",
+      "sha256": "437b84836ac21fcd24471137330fd1a8d6586bcbae1a8cae93396905f5c194f1",
+      "origen": "PNG maestro de la escena equipo, creada para ReservaCitas",
+      "sha256_origen": "397aad7fa3f7a8a70b051e2aaa7bcad646a36107cfde4f097e4daa4da07ffdfe",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/general.webp",
+      "sha256": "bfbdb62b25f79327a325abde2b3a98a71e7dc16302cde66c454354a5d14f137a",
+      "origen": "PNG maestro de la escena general, creada para ReservaCitas",
+      "sha256_origen": "eb2b565ba66aa735bbad28fae9345d02f2acecf67e70d0b158df6a54b27a92ca",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/ginecologia.webp",
+      "sha256": "f00d3bdae1475ccc9aa84374a870c44a38f974ff2f381baecb03c4d6b343fd47",
+      "origen": "PNG maestro de la escena ginecologia, creada para ReservaCitas",
+      "sha256_origen": "2df9da47e381b8a62967a6e592f3b458ce37016fcfe9299ab6d755c43959870d",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/laboratorio.webp",
+      "sha256": "5be12588ca5e3d35417d4c14836f753ffd266b97e27a23bbf4bbe105c87f0182",
+      "origen": "PNG maestro de la escena laboratorio, creada para ReservaCitas",
+      "sha256_origen": "a8f281c332ad952a7e4c4c530c488978f5fa92c97e8528d1a3aecc128fc1ef06",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/odontologia.webp",
+      "sha256": "1d1468f063cea9857012e9920e9e8ce4ee4408b9bd6cc09c7d2327fbe1c47572",
+      "origen": "PNG maestro de la escena odontologia, creada para ReservaCitas",
+      "sha256_origen": "0955826658b58daf1cef41ab535346100684711ddb5d3f64aa1233240cc3bb9c",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/pediatria.webp",
+      "sha256": "4eb3fb52d29e9cb17b2037556597b10dcf7af75cb4b8733343ff51f45d465958",
+      "origen": "PNG maestro de la escena pediatria, creada para ReservaCitas",
+      "sha256_origen": "9b419ebaa27c92c343da5c15e8e83a5636cc10524e12f0ca7f1f0db7a3a12942",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/sala.webp",
+      "sha256": "0c51872912f3c4069db8fae77c8d5758edabeda054e0f11edb0e28c1b59a5414",
+      "origen": "PNG maestro de la escena sala, creada para ReservaCitas",
+      "sha256_origen": "5afd47a946bf8899b830c78633f392258abb75f3b98f70b8d6cc8ac9d36202e3",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/fotografias/traumatologia.webp",
+      "sha256": "5c5992253a35fe37b72505ecc3ef164c4e77284eb598a194d4fd877306b11bf7",
+      "origen": "PNG maestro de la escena traumatologia, creada para ReservaCitas",
+      "sha256_origen": "a79ebb36351bc6f0304e9aff54c7629abdd36088ca3ed25d2a85f24b973e10d2",
+      "preparacion": "WebP, ancho máximo de 1200 px y calidad 83"
+    },
+    {
+      "archivo": "public/imagenes/marca/atencion-medica.webp",
+      "sha256": "a0cab12166df0a2431c81d724565ab166b79a6b06300a669331ad37d2d0a7435",
+      "origen": "PNG maestro de la escena atencion-medica, creada para ReservaCitas",
+      "sha256_origen": "b7c3bdff7327781bdbbacfadf3e33397c3769b31d5f046d62ba0ca27c6cc20a6",
+      "preparacion": "WebP de 720 × 900 px, calidad 86 y esfuerzo 6"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-16.png",
+      "sha256": "cc8c98a260ef84bcf55b080959a9f951c1cd20b787a6df6003688bd71b380fc9",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-180.png",
+      "sha256": "3a0002df0120d3f483a46730958a0d79c501e19cb548b57c974e31e2f04e6407",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-192.png",
+      "sha256": "594bd994d74257e29d425c7f982c4108d045e979ffd652e173ad640dd889c334",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-256.png",
+      "sha256": "06d120cf9d902f19c61585f3fe68f248431801c782c5e06cbadcc188d19215d7",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-32.png",
+      "sha256": "1aedc7aa2e1ea6123a2074f3862542e5283f1074cb12a5094abf60fcce822aff",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-48.png",
+      "sha256": "556ac5d8d2c1147080953cad2f4d462684842538babd451b559f6f742439df6f",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-512.png",
+      "sha256": "16ff3ea0db2d5b43e5e3ce942c85cf0b098c5d44c30f6f7872dd9be0b3a07d59",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-64.png",
+      "sha256": "ec2e436c14acc13d437fb7fd74ca7f1d7952b6bfc64fddd5beebb291a8dc2c26",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "PNG redimensionado a partir de la marca original"
+    },
+    {
+      "archivo": "public/imagenes/marca/reservacitas-original.png",
+      "sha256": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "origen": "PNG maestro del símbolo ReservaCitas",
+      "sha256_origen": "d6e0d89d64bf62177136e0ff97ff5211e5f65a11e6cdac58af0da34c410d7e98",
+      "preparacion": "Original PNG"
+    },
+    {
+      "archivo": "public/imagenes/propias/cardiologia.svg",
+      "sha256": "c267f234a4fa20529db93791d0a3ff8f4e23a69905553c2b9c36572433871c7b",
+      "origen": "Vector de cardiologia creado para ReservaCitas",
+      "sha256_origen": "c267f234a4fa20529db93791d0a3ff8f4e23a69905553c2b9c36572433871c7b",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/propias/dermatologia.svg",
+      "sha256": "68eb3a2ffb4343aa1a26656428019010dd92d4a7cc28c3555157134670d17794",
+      "origen": "Vector de dermatologia creado para ReservaCitas",
+      "sha256_origen": "68eb3a2ffb4343aa1a26656428019010dd92d4a7cc28c3555157134670d17794",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/propias/general.svg",
+      "sha256": "a6b27da5c28174262ab4eccf9a1b044d084e6bc3d190e6c502532fad39029e03",
+      "origen": "Vector de general creado para ReservaCitas",
+      "sha256_origen": "a6b27da5c28174262ab4eccf9a1b044d084e6bc3d190e6c502532fad39029e03",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/propias/ginecologia.svg",
+      "sha256": "88b5fae995d55de8fb2d73fc32fbbb44addd37f8541500ff4a946333a3d9104e",
+      "origen": "Vector de ginecologia creado para ReservaCitas",
+      "sha256_origen": "88b5fae995d55de8fb2d73fc32fbbb44addd37f8541500ff4a946333a3d9104e",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/propias/odontologia.svg",
+      "sha256": "b5a167cb6df5283bab92ac35996cded3ab0e786cbc71cff28078ec833068c230",
+      "origen": "Vector de odontologia creado para ReservaCitas",
+      "sha256_origen": "b5a167cb6df5283bab92ac35996cded3ab0e786cbc71cff28078ec833068c230",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/propias/pediatria.svg",
+      "sha256": "8bba87b59aac4c14bf8e6b6b71506a27d85a78fb3cf16a5df6a94d393c88bed6",
+      "origen": "Vector de pediatria creado para ReservaCitas",
+      "sha256_origen": "8bba87b59aac4c14bf8e6b6b71506a27d85a78fb3cf16a5df6a94d393c88bed6",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/propias/recepcion.webp",
+      "sha256": "5d5a3e7e4986fd2bbcbd6120bcde1d7988e52ff1fe6a5f3da2426b346cc585d5",
+      "origen": "PNG maestro de la escena recepcion, creada para ReservaCitas",
+      "sha256_origen": "4381cecd059190077d0ac78e81c874f4d32497a9a3b494530cfa04d71605ff11",
+      "preparacion": "WebP de 1200 × 800 px, calidad 86 y esfuerzo 4"
+    },
+    {
+      "archivo": "public/imagenes/propias/traumatologia.svg",
+      "sha256": "a7d5c70eadbb2ac917c69836206d04d14c63f1079be5e0789e30bfb572ab0735",
+      "origen": "Vector de traumatologia creado para ReservaCitas",
+      "sha256_origen": "a7d5c70eadbb2ac917c69836206d04d14c63f1079be5e0789e30bfb572ab0735",
+      "preparacion": "Ilustración construida con trazados y formas SVG para esta especialidad. Archivo vectorial original."
+    },
+    {
+      "archivo": "public/imagenes/responsive/cardiologia-480.webp",
+      "sha256": "e901574291675b8f09caafe2b3cfc2593519a6b2552581e223b6eb55c9ba6cf0",
+      "origen": "public/imagenes/fotografias/cardiologia.webp",
+      "sha256_origen": "08ec4d86729be8653c82d10b95680fbf269865fcae2407e11041d0e8663fea6d",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/cardiologia-800.webp",
+      "sha256": "fac27b7d6a5a71ae2aaeac30efa6622f289c76b65da2e69aa859294defb759ab",
+      "origen": "public/imagenes/fotografias/cardiologia.webp",
+      "sha256_origen": "08ec4d86729be8653c82d10b95680fbf269865fcae2407e11041d0e8663fea6d",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/contacto-480.webp",
+      "sha256": "7943416a762f05376f758607f86b8649bc94e2892fdffd44d5b8f9466b4c037f",
+      "origen": "public/imagenes/fotografias/contacto.webp",
+      "sha256_origen": "a55f20e6e91964e61bee6705fdff416400daa3590781d6de94ef1e8683c06c09",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/contacto-800.webp",
+      "sha256": "0c66517db0c35ef6dd5bda221b910b2b35026611a48a094eb157feba82738470",
+      "origen": "public/imagenes/fotografias/contacto.webp",
+      "sha256_origen": "a55f20e6e91964e61bee6705fdff416400daa3590781d6de94ef1e8683c06c09",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/dermatologia-480.webp",
+      "sha256": "e8b35892f0058a775ce3a5ad7fd402ab25d9847ff3f1761c09be71fcabbbd240",
+      "origen": "public/imagenes/fotografias/dermatologia.webp",
+      "sha256_origen": "5c7357e443a90ebe2a8df5b6e91fe3ed61007ad9c75102c3be079105f101c78b",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/dermatologia-800.webp",
+      "sha256": "22343504bab81b55a4dd34b6d0a8f2a15c7c696ec2e709074f60516ab2193186",
+      "origen": "public/imagenes/fotografias/dermatologia.webp",
+      "sha256_origen": "5c7357e443a90ebe2a8df5b6e91fe3ed61007ad9c75102c3be079105f101c78b",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/diagnostico-480.webp",
+      "sha256": "ede9770d801301dca97dd39a191d3450f49d7320103eb6ef3e13e1feeaee379c",
+      "origen": "public/imagenes/fotografias/diagnostico.webp",
+      "sha256_origen": "2b2c41cbbcd69955fa7befa36c54f73a13ed317ec3432537b76d8100f2f55c1e",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/diagnostico-800.webp",
+      "sha256": "8b18dc78c1303e6f2e9529a7d0bfb0b867628769fbff823c40552ba1ff10a2cd",
+      "origen": "public/imagenes/fotografias/diagnostico.webp",
+      "sha256_origen": "2b2c41cbbcd69955fa7befa36c54f73a13ed317ec3432537b76d8100f2f55c1e",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/equipo-480.webp",
+      "sha256": "1c13d32192879927b0018b7ab8c9af1da2306f94892a8d2a96656188676cf064",
+      "origen": "public/imagenes/fotografias/equipo.webp",
+      "sha256_origen": "437b84836ac21fcd24471137330fd1a8d6586bcbae1a8cae93396905f5c194f1",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/equipo-800.webp",
+      "sha256": "94c1e23c8a8911173cd80551962e373d80c6af1d0371f72c9cce35ed1a34b5e4",
+      "origen": "public/imagenes/fotografias/equipo.webp",
+      "sha256_origen": "437b84836ac21fcd24471137330fd1a8d6586bcbae1a8cae93396905f5c194f1",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/general-480.webp",
+      "sha256": "999f1df25d13781b13bc32cdc9068728acc076aed7ef79cb21ce2ec94a6f94fd",
+      "origen": "public/imagenes/fotografias/general.webp",
+      "sha256_origen": "bfbdb62b25f79327a325abde2b3a98a71e7dc16302cde66c454354a5d14f137a",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/general-800.webp",
+      "sha256": "6e41cdd15681fc4e953b1386a67181dfe04db0ac9f1943b7158b34bf3a49978e",
+      "origen": "public/imagenes/fotografias/general.webp",
+      "sha256_origen": "bfbdb62b25f79327a325abde2b3a98a71e7dc16302cde66c454354a5d14f137a",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/ginecologia-480.webp",
+      "sha256": "c9cb1b5ba90d01593fb8fa8c3c58089b9669a5169ca67e07369f7f412d468981",
+      "origen": "public/imagenes/fotografias/ginecologia.webp",
+      "sha256_origen": "f00d3bdae1475ccc9aa84374a870c44a38f974ff2f381baecb03c4d6b343fd47",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/ginecologia-800.webp",
+      "sha256": "4be60030cf89257a3218cac2b4dad0e053136ca5db7a7968ff8bb8f558928bb7",
+      "origen": "public/imagenes/fotografias/ginecologia.webp",
+      "sha256_origen": "f00d3bdae1475ccc9aa84374a870c44a38f974ff2f381baecb03c4d6b343fd47",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/laboratorio-480.webp",
+      "sha256": "eb161ce3febccd66037fce1c0650ecc7b8c1ef57468fec48c02c191538652976",
+      "origen": "public/imagenes/fotografias/laboratorio.webp",
+      "sha256_origen": "5be12588ca5e3d35417d4c14836f753ffd266b97e27a23bbf4bbe105c87f0182",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/laboratorio-800.webp",
+      "sha256": "bdbb93869e11a16798f443f9bdb4be4a4bf37c9fd1e11460be2ead41afcf3b04",
+      "origen": "public/imagenes/fotografias/laboratorio.webp",
+      "sha256_origen": "5be12588ca5e3d35417d4c14836f753ffd266b97e27a23bbf4bbe105c87f0182",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/odontologia-480.webp",
+      "sha256": "e978260738e3ca91deecb3b8f3f68dc64f9083684832ff0eeed79fffbcff6c16",
+      "origen": "public/imagenes/fotografias/odontologia.webp",
+      "sha256_origen": "1d1468f063cea9857012e9920e9e8ce4ee4408b9bd6cc09c7d2327fbe1c47572",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/odontologia-800.webp",
+      "sha256": "847cb0277e43b0e37dd171b7119083c2388a60bca15aa19b477e4624911ff3d7",
+      "origen": "public/imagenes/fotografias/odontologia.webp",
+      "sha256_origen": "1d1468f063cea9857012e9920e9e8ce4ee4408b9bd6cc09c7d2327fbe1c47572",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/pediatria-480.webp",
+      "sha256": "580e040e6f81dec916307602f9505beb1e7e30fadf58725ed5c335111bec1c3b",
+      "origen": "public/imagenes/fotografias/pediatria.webp",
+      "sha256_origen": "4eb3fb52d29e9cb17b2037556597b10dcf7af75cb4b8733343ff51f45d465958",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/pediatria-800.webp",
+      "sha256": "ca613d42d435685d5daa397ef468c4d4431b79b6d9a3abec8fe09e945ddc336d",
+      "origen": "public/imagenes/fotografias/pediatria.webp",
+      "sha256_origen": "4eb3fb52d29e9cb17b2037556597b10dcf7af75cb4b8733343ff51f45d465958",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/recepcion-480.webp",
+      "sha256": "f76706f411927c16efb079205fc7aee7d3cc739216d387aa3e9f2f5ebf8107cd",
+      "origen": "public/imagenes/propias/recepcion.webp",
+      "sha256_origen": "5d5a3e7e4986fd2bbcbd6120bcde1d7988e52ff1fe6a5f3da2426b346cc585d5",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/recepcion-800.webp",
+      "sha256": "7521974a7954326a3c107d100f4435d7f5336c99a5aae4f0ed6f9d16b3c761c9",
+      "origen": "public/imagenes/propias/recepcion.webp",
+      "sha256_origen": "5d5a3e7e4986fd2bbcbd6120bcde1d7988e52ff1fe6a5f3da2426b346cc585d5",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/sala-480.webp",
+      "sha256": "a087456c2be6daa49633246ec9e9371f03cb520324254c861169579d2730254f",
+      "origen": "public/imagenes/fotografias/sala.webp",
+      "sha256_origen": "0c51872912f3c4069db8fae77c8d5758edabeda054e0f11edb0e28c1b59a5414",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/sala-800.webp",
+      "sha256": "89850c21e22bbefeeedfae231c530154d183b9bd4c2769a689ab6be507eebca4",
+      "origen": "public/imagenes/fotografias/sala.webp",
+      "sha256_origen": "0c51872912f3c4069db8fae77c8d5758edabeda054e0f11edb0e28c1b59a5414",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/traumatologia-480.webp",
+      "sha256": "39a52e33cdd645efe494591a09fbd57cc5e670a880a766dbe1232341a43b9768",
+      "origen": "public/imagenes/fotografias/traumatologia.webp",
+      "sha256_origen": "5c5992253a35fe37b72505ecc3ef164c4e77284eb598a194d4fd877306b11bf7",
+      "preparacion": "Variante para pantalla, WebP de 480 px de ancho y calidad 80"
+    },
+    {
+      "archivo": "public/imagenes/responsive/traumatologia-800.webp",
+      "sha256": "35ee6a9dc8fc6068784b11bf5b7e1e531d7c1cc3188aff2495dd2722d52d2e91",
+      "origen": "public/imagenes/fotografias/traumatologia.webp",
+      "sha256_origen": "5c5992253a35fe37b72505ecc3ef164c4e77284eb598a194d4fd877306b11bf7",
+      "preparacion": "Variante para pantalla, WebP de 800 px de ancho y calidad 80"
+    }
+  ]
+}

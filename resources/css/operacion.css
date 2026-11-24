@@ -1,0 +1,180 @@
+:root {
+  --texto-secundario: #4c6176;
+  --borde-suave: #dce5ec;
+  --fondo-suave: #f3f8fa;
+}
+.texto-ayuda,
+.text-muted,
+.galeria-pie p,
+.galeria-descripcion,
+.paso-item p,
+.marca-descripcion,
+small {
+  color: #4c6176;
+}
+.texto-ayuda,
+.galeria-pie p,
+.galeria-descripcion {
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+.cuenta-resumen small,
+.marca-descripcion {
+  font-size: 0.75rem;
+}
+.contador-notificaciones {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 23px;
+  padding: 2px 6px;
+  background: #0b736d;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin-left: 6px;
+}
+.aviso-sesion {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(94vw, 480px);
+  z-index: 2000;
+  background: white;
+  border: 1px solid #b7cbd5;
+  border-radius: 18px;
+  box-shadow: 0 16px 60px #12365f33;
+  padding: 22px;
+}
+.aviso-sesion[hidden] {
+  display: none;
+}
+.aviso-sesion p {
+  font-weight: 600;
+}
+.volver-arriba.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.volver-arriba[hidden] {
+  display: none;
+}
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #087e7b;
+  outline-offset: 4px;
+}
+.form-gestion select {
+  min-height: 44px;
+}
+.gestion-tarjeta details > form {
+  margin-top: 20px;
+}
+.gestion-pestanas {
+  gap: 6px;
+}
+.gestion-pestanas a {
+  white-space: nowrap;
+}
+.tabla-gestion td {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+  .tabla-desplazable:has(.tabla-gestion) {
+    overflow: visible;
+  }
+  .tabla-gestion {
+    min-width: 0 !important;
+    width: 100%;
+  }
+  .tabla-gestion thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .tabla-gestion tbody,
+  .tabla-gestion tr,
+  .tabla-gestion td {
+    display: block;
+    width: 100%;
+  }
+  .tabla-gestion tr {
+    background: white;
+    border: 1px solid #dce5ec;
+    border-radius: 16px;
+    margin: 0 0 16px;
+    padding: 12px;
+  }
+  .tabla-gestion td {
+    padding: 10px 8px !important;
+    border: 0 !important;
+    min-width: 0 !important;
+  }
+  .tabla-gestion td::before {
+    content: attr(data-etiqueta);
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #4c6176;
+    margin-bottom: 5px;
+  }
+  .tabla-gestion td:empty {
+    display: none;
+  }
+  .gestion-dos-columnas {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  .gestion-pestanas {
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding-bottom: 12px;
+  }
+  .aviso-sesion {
+    bottom: 10px;
+  }
+  .footer-marca-fila nav {
+    flex-wrap: wrap;
+  }
+  .menu-panel .menu-principal a {
+    min-height: 44px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.hero-step-text small,
+.hero-pasos small,
+.hero-confianza small,
+.galeria-item p,
+.galeria-caption p,
+.galeria-descripcion,
+.galeria-item small {
+  color: #4c6176 !important;
+  font-size: 13px !important;
+}
+.tabla-gestion td small,
+.texto-ayuda,
+.gestion-cabecera > div > p:not(.eyebrow) {
+  color: #4c6176;
+}
+.gestion-pestanas .nav-link {
+  font-size: 13px;
+}
+.tabla-gestion td {
+  font-size: 14px;
+}

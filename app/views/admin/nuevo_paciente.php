@@ -1,0 +1,7 @@
+<?php
+require BASE_PATH.'/app/controllers/pages/admin/nuevo_paciente.php';
+abrir_pagina('Registrar paciente');
+encabezado_gestion('Registrar paciente', 'La ficha del paciente puede existir sin una cuenta ni un correo propio.', true); ?>
+<section class="gestion-tarjeta"><h2>Datos del paciente</h2><form action="guardar_persona.php" method="post" class="form-gestion"><?php campo_csrf();
+foreach ($contexto as $k => $v):?><input type="hidden" name="<?= e($k) ?>" value="<?= e($v) ?>"><?php endforeach ?>
+<label>Nombres y apellidos<input name="nombres" minlength="5" maxlength="150" required></label><label>Tipo de documento<select name="tipo_documento"><option>DNI</option><option>CE</option><option>PASAPORTE</option></select></label><label>Documento<input name="dni" maxlength="20" required></label><label>Teléfono<input name="telefono" type="tel" maxlength="30" required></label><label>Correo opcional<input type="email" name="correo" maxlength="100"></label><?php campos_demografia();?><label class="checkbox-inline"><input type="checkbox" name="crear_cuenta"> Crear una cuenta de acceso para este paciente</label><label>Contraseña inicial si creas acceso<input name="clave" type="password" maxlength="72" autocomplete="new-password"></label><p class="texto-ayuda">Las cuentas creadas por recepción deben cambiar su contraseña al primer ingreso.</p><button class="boton boton-primario">Registrar y continuar</button></form></section><?php cerrar_pagina(); ?>

@@ -1,0 +1,40 @@
+.gestion-cita-celda .ayuda-atencion-medica {
+  max-width: 35ch;
+  margin: 0 0 .55rem;
+  color: var(--color-primario);
+  font-size: .82rem;
+  line-height: 1.45;
+}
+.controles-atencion-medica {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .35rem;
+  max-width: 21rem;
+  margin-bottom: .55rem;
+}
+.controles-atencion-medica form { margin: 0; }
+.controles-atencion-medica button {
+  width: 100%;
+  height: 100%;
+  min-height: 2.25rem;
+  padding: .38rem .55rem;
+  border: 1px solid var(--color-primario);
+  border-radius: .5rem;
+  background: var(--color-primario);
+  color: white;
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.controles-atencion-medica button:not(:disabled):hover { background: #0f4c75; }
+.controles-atencion-medica button:disabled {
+  opacity: 1;
+  border-color: #d7e1e5;
+  background: #f2f5f6;
+  color: #596b77;
+  cursor: not-allowed;
+}
+@media (pointer: coarse) {
+  .controles-atencion-medica button { min-height: 44px; }
+}

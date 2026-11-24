@@ -1,0 +1,85 @@
+/* Estilos propios de contacto.html */
+.pagina-contacto {
+  padding: 40px 0 60px;
+}
+.encabezado-contacto {
+  margin-bottom: 40px;
+}
+.encabezado-contacto h1 {
+  font-size: 2.2rem;
+  color: var(--color-primario);
+  margin-bottom: 8px;
+}
+.encabezado-contacto h1 span {
+  color: var(--color-acento);
+}
+.encabezado-contacto p {
+  color: var(--color-gris);
+}
+.tarjetas-contacto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.tarjeta-contacto {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: var(--sombra-suave);
+}
+.icono-contacto {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--color-claro);
+  color: var(--color-acento);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
+.tarjeta-contacto :is(h2, h3) {
+  color: var(--color-primario);
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+.tarjeta-contacto p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.bloque-inferior {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: var(--sombra-suave);
+}
+.bloque-inferior :is(h2, h3) {
+  color: var(--color-primario);
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+.bloque-inferior ul li {
+  padding: 8px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: #374151;
+  font-size: 0.95rem;
+}
+.bloque-inferior ul li i {
+  color: var(--color-acento);
+  margin-top: 4px;
+}
+.bloque-inferior a {
+  color: var(--color-acento);
+  font-weight: 500;
+  text-decoration: underline;
+}
+.nota-final {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #6b7280;
+}

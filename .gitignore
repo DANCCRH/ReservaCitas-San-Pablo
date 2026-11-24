@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+/config/*.local.php
+/database/*.sql
+!/database/esquema_actual.sql
+/backups/
+/storage/
+*.sql.gz
+!/database/datos_publicos.sql.gz
+*.log
+.vscode/

@@ -1,0 +1,86 @@
+[
+  {
+    "nombre": "general",
+    "archivo": "public/imagenes/fotografias/general.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape photograph for a general medicine specialty card in a Spanish language medical appointment website. Create a realistic editorial photograph of a fictional Latin American female general practitioner in a white coat listening attentively to an adult seated patient during a consultation, clean contemporary examination room, teal and navy accents, soft daylight, natural expressions and skin texture, discreet stethoscope, professional clinical environment, warm and reassuring, horizontal composition 3:2 with both people visible from waist up, no text, no lettering, no watermarks, no visible brand names or logos, no medical procedure, no gore. These people are fictional, not real named individuals.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "pediatria",
+    "archivo": "public/imagenes/fotografias/pediatria.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal specialty photograph for medical appointment website. Pediatrics. A fictional Latin American pediatrician in a pale blue coat smiling at a child with a parent in a contemporary pediatric consulting room; a plush toy on the table; fully clothed; respectful natural interaction. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, wide horizontal 3:2 framing with people not cropped at head, no logos, no watermark, no lettering, no text. Fictional people, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "cardiologia",
+    "archivo": "public/imagenes/fotografias/cardiologia.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal specialty photograph for medical appointment website. Cardiology. A fictional Latin American female cardiologist discussing an ECG printout with an adult man in a modern cardiology office, a realistic ECG monitor discreetly in background, no readable text, consultation rather than invasive procedure. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, wide horizontal 3:2 framing with people not cropped at head, no logos, no watermark, no lettering, no text. Fictional people, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "ginecologia",
+    "archivo": "public/imagenes/fotografias/ginecologia.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal specialty photograph for medical appointment website. Gynecology. A fictional Latin American female gynecologist talking empathetically to an adult woman across a desk in a contemporary women's health consulting room, small anatomical model in the background, both fully clothed, no procedure. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, wide horizontal 3:2 framing with people not cropped at head, no logos, no watermark, no lettering, no text. Fictional people, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "dermatologia",
+    "archivo": "public/imagenes/fotografias/dermatologia.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal specialty photograph for medical appointment website. Dermatology. Fictional Latin American female dermatologist wearing gloves and gently examining a fully clothed adult woman's forearm with a handheld dermatoscope in a bright contemporary clinic, natural medical consultation, no visible lesions. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text. Fictional people, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "traumatologia",
+    "archivo": "public/imagenes/fotografias/traumatologia.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal specialty photograph for medical appointment website. Orthopedics and traumatology. Fictional Latin American male orthopedic doctor explaining a knee joint model to an adult patient seated opposite in a modern orthopedic office, no injuries, no invasive treatment. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text. Fictional people, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "odontologia",
+    "archivo": "public/imagenes/fotografias/odontologia.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal specialty photograph for medical appointment website. Dentistry. Fictional Latin American female dentist wearing light teal scrubs, mask resting below chin, welcoming a fully clothed adult patient beside a clean dental chair, contemporary dental consulting room, non-invasive consultation, no open mouth closeup. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text. Fictional people, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "equipo",
+    "archivo": "public/imagenes/fotografias/equipo.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal gallery photograph for medical appointment website. A fictional diverse Latin American healthcare team of four professionals in navy and teal scrubs and a white coat, conversing naturally while standing in the bright spacious corridor of a contemporary medical center. Unposed editorial team interaction, medium wide group shot. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text. Fictional people and place, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "contacto",
+    "archivo": "public/imagenes/fotografias/contacto.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal gallery photograph for medical appointment website. A fictional Latin American female medical receptionist at a warm oak reception desk, wearing a discreet headset, looking attentively at a computer while listening to a call, welcoming contemporary clinic reception, teal/navy details. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text. Fictional people and place, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "laboratorio",
+    "archivo": "public/imagenes/fotografias/laboratorio.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal gallery photograph for medical appointment website. A fictional laboratory professional in light teal scrubs and gloves using a microscope in a bright modern clinical laboratory, clean organized equipment, safely handled capped sample tubes on a rack, natural professional work scene. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, natural skin texture and believable hands, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text. Fictional people and place, no named real individuals, no gore.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "diagnostico",
+    "archivo": "public/imagenes/fotografias/diagnostico.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal gallery photograph for medical appointment website. A fictional Latin American female medical professional guiding a fully clothed adult patient into a bright diagnostic imaging room with a modern ultrasound machine and examination bed, calm non-invasive setting. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, believable details, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text, no named real institution.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  },
+  {
+    "nombre": "sala",
+    "archivo": "public/imagenes/fotografias/sala.webp",
+    "metodo": "image_gen incorporado",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal gallery photograph for medical appointment website. A beautiful empty waiting lounge in a fictional contemporary Latin American clinic, comfortable cream and teal chairs, warm oak panels, daylight from a large window, indoor plants, welcoming quiet atmosphere, no people, realistic architectural photography. Realistic professional editorial photography, soft daylight, teal/navy/ivory accents, believable details, inviting clean environment, horizontal 3:2 framing, no logos, no watermark, no lettering, no text, no named real institution.",
+    "nota": "Personas y espacios ficticios creados para el proyecto. No representa profesionales ni instalaciones reales."
+  }
+]

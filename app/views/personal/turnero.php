@@ -1,0 +1,13 @@
+<?php
+require_once BASE_PATH.'/app/config/conexion.php';require_once BASE_PATH.'/app/models/agenda_modelo.php';require_once BASE_PATH.'/app/views/shared/componentes.php';
+$u=exigir_usuario(['admin','recepcion','medico','asistencial']);$where="c.fecha_cita=CURDATE() AND c.estado='confirmado' AND c.llegada_en IS NOT NULL AND c.codigo_turno IS NOT NULL";$v=[];
+if($u['rol']==='medico'){$where.=' AND c.medico_id=?';$v[]=medico_del_usuario($u);}elseif($u['rol']==='asistencial'){$ids=equipo_del_usuario($u);$where.=' AND c.medico_id IN('.implode(',',array_map('intval',$ids?:[0])).')';}
+$q=$conexion->prepare("SELECT c.codigo_turno,c.llamado_en,c.inicio_atencion,s.nombre consultorio FROM citas c LEFT JOIN consultorios s ON s.id=c.consultorio_id WHERE $where ORDER BY c.inicio_atencion IS NULL,c.llamado_en IS NULL,c.llamado_en DESC,c.llegada_en LIMIT 100");$q->execute($v);$filas=$q->fetchAll();
+if(isset($_GET['datos']))responder_json(['turnos'=>array_map(fn($f)=>['codigo'=>$f['codigo_turno'],'consultorio'=>$f['consultorio']?:'Recepción','estado'=>$f['inicio_atencion']?'En consulta':($f['llamado_en']?'Pasar a consultorio':'En espera')],$filas),'hora'=>date('H:i')]);
+abrir_pagina('Sala de espera');
+$panel_gestion = in_array($u['rol'], ['admin','recepcion'], true);
+if ($panel_gestion) {
+    encabezado_gestion('Sala de espera', 'Consulta los turnos de hoy y los llamados a consultorio.', true);
+}
+?>
+<section class="turnero" data-turnero><div class="gestion-barra"><div><p class="eyebrow">RESERVACITAS · SALA DE ESPERA</p><?php if ($panel_gestion): ?><h2>Tu próximo turno</h2><?php else: ?><h1>Tu próximo turno</h1><?php endif ?><p>Busca el código que te entregaron en recepción.</p></div><button type="button" class="boton boton-secundario" data-pantalla>Ampliar pantalla</button></div><p class="texto-ayuda" data-turnero-estado role="status">Actualizado a las <?= date('H:i') ?> · Se actualiza cada 20 segundos.</p><div class="turnero-grid" data-turnero-lista><?php foreach($filas as $f):?><article class="turno-publico"><span><?= $f['inicio_atencion']?'En consulta':($f['llamado_en']?'Pasar a consultorio':'En espera') ?></span><strong><?= e($f['codigo_turno']) ?></strong><p><?= e($f['consultorio']?:'Recepción') ?></p></article><?php endforeach;if(!$filas):?><p>Los turnos aparecerán cuando recepción registre una llegada.</p><?php endif ?></div><p class="texto-ayuda">Pantalla sin nombres ni documentos. El acceso requiere una sesión del personal. Máximo 100 turnos visibles.</p></section><script src="js/agenda-integral.js?v=0e11e674c7" defer></script><?php cerrar_pagina(); ?>

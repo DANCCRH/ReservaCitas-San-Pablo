@@ -1,0 +1,294 @@
+/* Estilos propios de mis_solicitudes.php */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #f8fcfe;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.perfil-seccion {
+  padding: 20px 0 60px;
+}
+.perfil-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* PANEL IZQUIERDO */
+.panel-lateral {
+  background: white;
+  border-radius: 20px;
+  padding: 32px 24px;
+  box-shadow: 0 4px 20px rgba(10, 36, 99, 0.06);
+  text-align: center;
+}
+.avatar-circulo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0d9488, #0a2463);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 2.8rem;
+  color: white;
+}
+.panel-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0a2463;
+  margin-bottom: 4px;
+}
+.panel-subtitulo {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 28px;
+}
+
+.stat-fila {
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+.stat-fila:last-child {
+  border-bottom: none;
+}
+.stat-etiqueta {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.stat-valor {
+  font-size: 1.2rem;
+  color: #0a2463;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.btn-limpiar {
+  width: 100%;
+  background: #fef2f2;
+  color: #b91c1c;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-limpiar:hover {
+  background: #fee2e2;
+}
+
+/* CONTENIDO PRINCIPAL */
+.seccion-derecha h1 {
+  font-size: 1.8rem;
+  color: #0a2463;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.btn-nueva {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #0a2463;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-nueva:hover {
+  background: #081f4d;
+}
+
+/* TARJETA DE SOLICITUD — ESTILO TABLA */
+.solicitud-tarjeta {
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 2px 12px rgba(10, 36, 99, 0.04);
+  margin-bottom: 20px;
+  border-left: 4px solid #f59e0b;
+}
+.solicitud-tarjeta.pendiente {
+  border-left-color: #f59e0b;
+}
+.solicitud-tarjeta.atendido {
+  border-left-color: #10b981;
+}
+.solicitud-tarjeta.cancelado {
+  border-left-color: #ef4444;
+}
+
+.tarjeta-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.tarjeta-numero {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0a2463;
+}
+.etiqueta-estado {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.estado-pendiente {
+  background: #fef3c7;
+  color: #92400e;
+}
+.estado-atendido {
+  background: #d1fae5;
+  color: #065f46;
+}
+.estado-cancelado {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+/* TABLA DE DATOS */
+.tabla-datos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 8px;
+}
+.dato-columna {
+}
+.dato-etiqueta {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+.dato-valor {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.fila-registro {
+  margin: 16px 0 20px;
+}
+.registro-etiqueta {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+.registro-valor {
+  font-size: 0.9rem;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* BOTONES DE ESTADO */
+.grupo-botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+.boton-estado {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-pendiente {
+  background: #fef3c7;
+  color: #92400e;
+}
+.btn-pendiente:hover {
+  background: #fde68a;
+}
+.btn-atendido {
+  background: #d1fae5;
+  color: #065f46;
+}
+.btn-atendido:hover {
+  background: #a7f3d0;
+}
+.btn-cancelado {
+  background: #fecaca;
+  color: #991b1b;
+}
+.btn-cancelado:hover {
+  background: #fca5a5;
+}
+
+.vacia {
+  text-align: center;
+  padding: 80px 30px;
+  color: #64748b;
+}
+.vacia i {
+  font-size: 3rem;
+  color: #cbd5e1;
+  margin-bottom: 16px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .perfil-grid {
+    grid-template-columns: 1fr;
+  }
+  .tabla-datos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .tabla-datos {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel-titulo,
+.dato-valor {
+  overflow-wrap: anywhere;
+}
+.seccion-derecha {
+  min-width: 0;
+}

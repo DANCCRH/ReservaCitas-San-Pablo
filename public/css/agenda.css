@@ -1,0 +1,314 @@
+body[data-pagina="agenda"] .gestion-cabecera {
+  margin-bottom: 22px;
+}
+body[data-pagina="agenda"] .gestion-pestanas {
+  margin-bottom: 20px;
+}
+body[data-pagina="agenda"] .gestion-filtros {
+  margin-bottom: 14px;
+}
+body[data-pagina="agenda"] .gestion-barra {
+  margin: 14px 0;
+}
+.horas-introduccion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 18px 0 16px;
+}
+.horas-introduccion h2 {
+  font-size: 28px;
+  margin: 8px 0;
+}
+.horas-introduccion p,
+.horas-ayuda {
+  max-width: 780px;
+  color: #4c657b;
+  line-height: 1.7;
+  font-size: 14px;
+}
+.horas-introduccion .boton {
+  flex-shrink: 0;
+  gap: 9px;
+}
+.horas-resumen {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 18px;
+}
+.horas-indicador {
+  background: #fff;
+  border: 1px solid #d9e5ed;
+  border-radius: 16px;
+  padding: 12px 18px;
+  border-top: 4px solid #8795a4;
+}
+.horas-indicador span {
+  display: block;
+  color: #415d73;
+  font-size: 13px;
+}
+.horas-indicador strong {
+  display: block;
+  font-size: 28px;
+  margin-top: 6px;
+  color: #173b5b;
+}
+.horas-indicador.libre {
+  border-top-color: #07816a;
+}
+.horas-indicador.ocupado {
+  border-top-color: #2865ba;
+}
+.horas-indicador.bloqueado {
+  border-top-color: #ad730c;
+}
+.horas-ayuda {
+  margin-bottom: 24px;
+}
+.horas-profesionales {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.horas-profesionales.un-profesional {
+  grid-template-columns: 1fr;
+}
+.horas-profesional {
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #d9e5ed;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px #173b5b05;
+}
+.horas-cabecera {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  background: #f4f9fb;
+  padding: 24px;
+  border-bottom: 1px solid #dfe9ef;
+}
+.horas-cabecera h3 {
+  font-size: 19px;
+  margin: 7px 0;
+}
+.horas-cabecera p {
+  font-size: 13px;
+  color: #47647b;
+  margin: 0;
+  line-height: 1.7;
+}
+.horas-fecha {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #34566e;
+}
+.horas-espacios {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 20px;
+}
+.un-profesional .horas-espacios {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.hora-espacio {
+  min-width: 0;
+  border: 1px solid #dce5ec;
+  border-left: 4px solid #8294a5;
+  border-radius: 13px;
+  padding: 15px;
+  background: #f6f8fa;
+}
+.hora-espacio.libre {
+  border-color: #b5dfd4;
+  border-left-color: #07816a;
+  background: #effaf5;
+}
+.hora-espacio.ocupado {
+  border-color: #bfd4f2;
+  border-left-color: #2865ba;
+  background: #f0f5fe;
+}
+.hora-espacio.bloqueado {
+  border-color: #ecd39d;
+  border-left-color: #ad730c;
+  background: #fff8e9;
+}
+.hora-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.hora-inicio strong {
+  color: #173b5b;
+  font-size: 18px;
+  white-space: nowrap;
+}
+.hora-inicio strong span {
+  font-size: 13px;
+  font-weight: 500;
+}
+.hora-inicio > span {
+  color: #4b6173;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.hora-etiqueta {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4a5f72;
+}
+.libre .hora-etiqueta,
+.hora-accion {
+  color: #07654f;
+}
+.ocupado .hora-etiqueta {
+  color: #24579b;
+}
+.bloqueado .hora-etiqueta {
+  color: #80520a;
+}
+.hora-espacio p {
+  margin: 9px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #4b6173;
+}
+.hora-accion {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 12px;
+  padding: 5px 0;
+}
+.hora-cita {
+  display: block;
+  color: #173b5b;
+  text-decoration: none;
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+}
+.hora-cita strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.hora-cita span {
+  display: block;
+  color: #42617e;
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 4px;
+}
+.hora-cita:hover strong {
+  text-decoration: underline;
+}
+.hora-accion:focus-visible,
+.hora-cita:focus-visible {
+  outline: 3px solid #173b5b;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+.horas-advertencia {
+  margin: 0 20px 20px;
+  padding: 16px;
+  background: #fff8e9;
+  color: #76500e;
+  border: 1px solid #ecd39d;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.horas-advertencia p {
+  margin: 5px 0;
+}
+.horas-advertencia a {
+  display: block;
+  color: #694705;
+  text-decoration: underline;
+}
+.horas-sin-turno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #4b6173;
+  padding: 18px 24px 30px;
+  font-size: 14px;
+}
+.horas-sin-turno p {
+  margin: 0;
+}
+@media (max-width: 1050px) {
+  .horas-profesionales {
+    grid-template-columns: 1fr;
+  }
+  .un-profesional .horas-espacios {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .horas-introduccion {
+    display: block;
+  }
+  .horas-introduccion h2 {
+    font-size: 24px;
+  }
+  .horas-introduccion .boton {
+    margin-top: 8px;
+  }
+  .horas-resumen {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .horas-indicador {
+    padding: 14px;
+  }
+  .horas-cabecera {
+    padding: 20px;
+    display: block;
+  }
+  .horas-fecha {
+    display: block;
+    margin-top: 12px;
+  }
+  .horas-espacios,
+  .un-profesional .horas-espacios {
+    grid-template-columns: 1fr;
+    padding: 14px;
+  }
+  .hora-espacio {
+    padding: 15px 18px;
+  }
+}
+@media print {
+  body[data-pagina="agenda"] .horas-introduccion .boton,
+  body[data-pagina="agenda"] .hora-accion,
+  body[data-pagina="agenda"] .gestion-filtros,
+  body[data-pagina="agenda"] .gestion-pestanas {
+    display: none;
+  }
+  .horas-profesional,
+  .hora-espacio {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+  .horas-profesionales,
+  .un-profesional .horas-espacios {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,29 @@
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^(?:app|config|database|bin|docs|herramientas|resources|tests)(?:/|$) - [F,END,NC]
+RewriteRule ^(?:conexion|componentes|roles|seguridad|correo|admin_componentes|agenda_modelo|reglas_citas|panel_atencion|migrar_final|actualizar_bd)\.php$ - [F,END,NC]
+RewriteRule ^(css|js|imagenes|vendor)/(.*)$ public/$1/$2 [END]
+RewriteRule ^(favicon\.ico|site\.webmanifest)$ public/$1 [END]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^public/(.*)$ public/index.php [QSA,END]
+RewriteRule ^index\.php$ - [END]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,END]
+<FilesMatch "\.(sql|md|bak|log|zip|ini|env)$">
+ Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+ Header always set X-Content-Type-Options "nosniff"
+ Header always set X-Frame-Options "SAMEORIGIN"
+ Header always set Referrer-Policy "strict-origin-when-cross-origin"
+ <FilesMatch "\.(php|html)$">
+  Header always set Cache-Control "no-cache, must-revalidate"
+ </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+ <FilesMatch "\.(css|js|webp|png|woff2)$">
+ Header set Cache-Control "public, max-age=86400"
+ </FilesMatch>
+</IfModule>

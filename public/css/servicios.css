@@ -1,0 +1,91 @@
+/* Estilos propios de servicios.html */
+.servicio-seccion {
+  padding: 60px 0;
+}
+.servicio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.etiqueta-superior {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-acento);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.servicio-grid h1 {
+  font-size: 2.2rem;
+  color: var(--color-primario);
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+.servicio-grid h1 span {
+  color: var(--color-acento);
+}
+.servicio-grid p {
+  color: var(--color-gris);
+  margin-bottom: 24px;
+}
+.lista-servicios {
+  margin-bottom: 32px;
+}
+.lista-servicios li {
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #374151;
+}
+.lista-servicios i {
+  color: var(--color-acento);
+}
+.ilustracion-servicio {
+  position: relative;
+}
+.tarjeta-ilustracion-chica {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: var(--sombra-suave);
+  position: relative;
+  z-index: 2;
+}
+.etiqueta-flotante-servicio {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  background: white;
+  padding: 10px 14px;
+  border-radius: 12px;
+  box-shadow: var(--sombra-suave);
+  font-size: 0.85rem;
+  z-index: 3;
+}
+.etiqueta-flotante-servicio i {
+  color: #f43f5e;
+  margin-right: 4px;
+}
+.forma-fondo {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(13, 148, 136, 0.08),
+    rgba(18, 54, 95, 0.05)
+  );
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+@media (max-width: 800px) {
+  .servicio-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

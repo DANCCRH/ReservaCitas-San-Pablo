@@ -1,0 +1,206 @@
+/* Cabecera única de ReservaCitas. */
+html {
+  scrollbar-gutter: stable;
+}
+body > .site-header {
+  position: relative;
+  z-index: 30;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-bottom: 1px solid #e7edef;
+  box-shadow: none;
+  font-family: Inter, Arial, sans-serif;
+}
+body > header .nav-container {
+  width: calc(100% - 48px);
+  max-width: 1440px;
+  min-height: 88px;
+  margin: 0 auto;
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+body > header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+body > header .logo img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+body > header .logo strong {
+  display: block;
+  font:
+    700 19px/1.3 Inter,
+    Arial,
+    sans-serif;
+  letter-spacing: -0.6px;
+  color: #12365f;
+}
+body > header .logo strong .marca-acento {
+  display: inline;
+  font: inherit;
+  color: #087f79;
+}
+body > header .logo .marca-descripcion {
+  display: block;
+  margin-top: 3px;
+  font:
+    400 11px/1.3 Inter,
+    Arial,
+    sans-serif;
+  color: #738395;
+  letter-spacing: 0.1px;
+}
+body > header .menu-principal {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+body > header .menu-principal[data-sesion-lista="true"] {
+  visibility: visible;
+}
+body > header .menu-principal ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 17px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body > header .menu-principal li {
+  width: auto;
+  flex: 0 0 auto;
+}
+body > header .menu-principal li a {
+  position: relative;
+  display: block;
+  padding: 10px 0;
+  border: 0;
+  font:
+    500 13px/1.5 Inter,
+    Arial,
+    sans-serif;
+  white-space: nowrap;
+  color: #526579;
+  text-decoration: none;
+  transition: color 0.18s;
+}
+body > header .menu-principal a:hover,
+body > header .menu-principal a[aria-current="page"] {
+  color: #087f79;
+}
+body > header .menu-principal a[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 2px;
+  border-radius: 2px;
+  background: #087f79;
+}
+body > header .menu-principal [data-acceso-sesion] {
+  max-width: 145px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #12365f;
+}
+body > header .menu-toggle {
+  display: none;
+  border: 1px solid #dce7eb;
+  background: #f5faf9;
+  color: #12365f;
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  font-size: 18px;
+  cursor: pointer;
+}
+body > header .menu-principal > .boton {
+  display: none;
+}
+@media (min-width: 1100px) and (max-width: 1319px) {
+  body > header .nav-container {
+    width: calc(100% - 32px);
+    gap: 18px;
+  }
+  body > header .menu-principal ul {
+    gap: 10px;
+  }
+  body > header .menu-principal li a {
+    font-size: 12px;
+  }
+  body > header .logo strong {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1099px) {
+  body > header .nav-container {
+    width: calc(100% - 40px);
+    min-height: 80px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  body > header .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  body > header .logo strong {
+    font-size: 18px;
+  }
+  body > header .menu-toggle {
+    display: grid;
+    place-items: center;
+  }
+  body > header .menu-principal {
+    display: none;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 18px;
+    padding-top: 10px;
+    border-top: 1px solid #edf1f4;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  body > header .menu-principal.mostrar {
+    display: flex;
+  }
+  body > header .menu-principal ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    width: 100%;
+  }
+  body > header .menu-principal li a {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  body > header .menu-principal a[aria-current="page"] {
+    background: #edf7f5;
+  }
+  body > header .menu-principal a[aria-current="page"]::after {
+    display: none;
+  }
+  body > header .menu-principal [data-acceso-sesion] {
+    max-width: 100%;
+  }
+}

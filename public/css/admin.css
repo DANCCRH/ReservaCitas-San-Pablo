@@ -1,0 +1,341 @@
+.admin-seccion {
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+.admin-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+.admin-encabezado h1 {
+  margin: 6px 0 10px;
+}
+.admin-encabezado p {
+  color: #64748b;
+}
+.admin-etiqueta {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: #087f8c !important;
+}
+.admin-metricas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.admin-metrica,
+.admin-panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px #0f172a05;
+}
+.admin-metrica {
+  padding: 24px;
+}
+.admin-metrica span {
+  display: block;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+.admin-metrica strong {
+  display: block;
+  font-size: 2rem;
+  margin-top: 8px;
+  color: #102d58;
+}
+.admin-panel {
+  overflow: hidden;
+}
+.admin-panel-titulo {
+  padding: 22px 26px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.admin-panel-titulo h2 {
+  font-size: 1.2rem;
+}
+.admin-panel-titulo span {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+.admin-vacio {
+  text-align: center;
+  padding: 58px 24px;
+}
+.admin-icono {
+  display: inline-grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: #edf8f8;
+  color: #087f8c;
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+.admin-vacio p {
+  color: #64748b;
+  margin: 12px auto 24px;
+  max-width: 440px;
+}
+.admin-tabla {
+  overflow: auto;
+}
+.admin-tabla table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.admin-tabla th {
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+.admin-tabla th,
+.admin-tabla td {
+  padding: 18px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+@media (max-width: 700px) {
+  .admin-metricas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .admin-encabezado {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .admin-metrica {
+    padding: 18px;
+  }
+  .admin-seccion {
+    padding-top: 24px;
+  }
+  .admin-panel-titulo {
+    padding: 18px;
+  }
+}
+.admin-accesos {
+  display: flex;
+  gap: 24px;
+  margin: 0 0 24px;
+}
+.admin-accesos a {
+  color: #12365f;
+  font-weight: 600;
+}
+.admin-insignia {
+  background: #e6f5f3;
+  color: #087f8c;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  margin-left: 6px;
+}
+.admin-aviso {
+  padding: 16px 20px;
+  border: 1px solid #b6e2d5;
+  border-radius: 12px;
+  background: #edf9f4;
+  color: #16634b;
+  margin-bottom: 24px;
+}
+.admin-filtros {
+  padding: 24px;
+  display: flex;
+  gap: 16px;
+  align-items: end;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e2e8f0;
+}
+.admin-filtros > div:first-child {
+  flex: 1;
+  min-width: 200px;
+}
+.admin-filtros label {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  color: #475569;
+}
+.admin-filtros input,
+.admin-filtros select,
+.admin-accion select {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+  background: white;
+  color: #12365f;
+  width: 100%;
+  min-height: 44px;
+}
+.admin-filtros a {
+  align-self: center;
+}
+.admin-tabla td {
+  vertical-align: top;
+  white-space: normal;
+  font-size: 0.9rem;
+}
+.admin-dato {
+  display: block;
+  color: #64748b;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+.admin-tabla details {
+  margin-top: 10px;
+  min-width: 160px;
+}
+.admin-tabla summary {
+  color: #087f8c;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.admin-comentario {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-width: 260px;
+  padding-top: 10px;
+}
+.admin-estado {
+  display: inline-block;
+  border-radius: 18px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+.estado-pendiente {
+  background: #fff3d6;
+  color: #885c05;
+}
+.estado-atendido {
+  background: #e3f5ec;
+  color: #1e6c4d;
+}
+.estado-cancelado {
+  background: #fcebed;
+  color: #a22f40;
+}
+.admin-accion {
+  display: flex;
+  gap: 8px;
+  min-width: 235px;
+}
+.admin-accion select {
+  font-size: 0.8rem;
+  flex: 1;
+  min-width: 0;
+}
+.admin-accion button,
+.admin-mensaje button {
+  border: 1px solid #ccdbe6;
+  background: #f6fafc;
+  color: #12365f;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.admin-accion button:hover,
+.admin-mensaje button:hover {
+  background: #e6f5f3;
+}
+.admin-paginacion {
+  padding: 18px 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+.admin-mensajes {
+  margin-top: 32px;
+}
+.admin-mensaje {
+  padding: 24px;
+  border-bottom: 1px solid #e2e8f0;
+}
+.admin-mensaje.sin-leer {
+  border-left: 4px solid #087f8c;
+}
+.admin-mensaje-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.admin-mensaje :is(h2, h3) {
+  font-size: 1.05rem;
+  margin: 6px 0;
+}
+.admin-mensaje-cabecera p {
+  color: #64748b;
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+.admin-mensaje-texto {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin-top: 18px;
+  color: #334155;
+  line-height: 1.7;
+}
+.solo-lectores {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+#citas,
+#mensajes {
+  scroll-margin-top: 24px;
+}
+@media (max-width: 700px) {
+  .admin-filtros {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+  .admin-mensaje-cabecera {
+    align-items: start;
+    flex-direction: column;
+  }
+  .admin-mensaje {
+    padding: 18px;
+  }
+  .admin-panel-titulo {
+    flex-wrap: wrap;
+  }
+  .admin-accesos {
+    gap: 16px;
+    font-size: 0.9rem;
+  }
+}
+
+.admin-historial ol {
+  padding-left: 16px;
+  margin-top: 12px;
+}
+.admin-historial li {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.admin-seccion + footer {
+  text-align: center;
+  padding: 24px;
+}
+.admin-accion {
+  position: relative;
+}
